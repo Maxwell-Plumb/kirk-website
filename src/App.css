@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+
+
+/* Service Card */
+.service-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.service-card:hover {
+  transform: translateY(-5px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.service-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.service-card-content {
+  padding: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.service-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.service-card-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+.slick-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
