@@ -22,32 +22,38 @@ const VideosSection = () => {
     setSelectedVideo(null);
   };
 
+  const VideoThumbnail = ({ video, isMain }) => (
+    <div 
+      className={`${isMain ? 'md:col-span-2' : ''} aspect-video bg-gray-800 rounded-lg shadow-lg overflow-hidden cursor-pointer relative group`}
+      onClick={() => openVideoModal(video)}
+    >
+      <img src={getYouTubeThumbnail(video.youtubeId)} alt={video.title} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" />
+      <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-opacity duration-300 flex flex-col items-center justify-center">
+        {/* Centered play button */}
+        <div className={`${isMain ? 'w-20 h-20' : 'w-16 h-16'} bg-white bg-opacity-80 rounded-full flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110`}>
+          <svg className="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+          </svg>
+        </div>
+        <p className="text-white font-semibold text-center px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          {video.title}
+        </p>
+      </div>
+    </div>
+  );
+
   return (
     <section className="py-12 px-4 bg-black text-white">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">Featured Videos</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center brand-color">Featured Videos</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl mx-auto">
           {/* Main Video */}
-          <div className="md:col-span-2 aspect-video bg-gray-800 rounded-lg shadow-lg overflow-hidden cursor-pointer relative" onClick={() => openVideoModal(videos[0])}>
-            <img src={getYouTubeThumbnail(videos[0].youtubeId)} alt={videos[0].title} className="w-full h-full object-cover" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-16 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
-                <div className="w-0 h-0 border-t-8 border-t-transparent border-l-12 border-l-white border-b-8 border-b-transparent ml-1"></div>
-              </div>
-            </div>
-          </div>
+          <VideoThumbnail video={videos[0]} isMain={true} />
 
           {/* Secondary Videos */}
           <div className="md:col-span-1 grid grid-rows-3 gap-4">
             {videos.slice(1).map((video) => (
-              <div key={video.id} className="aspect-video bg-gray-800 rounded-lg shadow-lg overflow-hidden cursor-pointer relative" onClick={() => openVideoModal(video)}>
-                <img src={getYouTubeThumbnail(video.youtubeId)} alt={video.title} className="w-full h-full object-cover" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-12 h-8 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
-                    <div className="w-0 h-0 border-t-6 border-t-transparent border-l-8 border-l-white border-b-6 border-b-transparent ml-1"></div>
-                  </div>
-                </div>
-              </div>
+              <VideoThumbnail key={video.id} video={video} isMain={false} />
             ))}
           </div>
 

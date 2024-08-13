@@ -32,7 +32,7 @@ const FAQSection = () => {
 
   return (
     <div className="container max-w-3xl mx-auto py-16 px-4">
-      <h2 className="text-4xl font-bold text-center mb-12 text-white">Frequently Asked Questions</h2>
+      <h2 className="text-4xl font-bold text-center mb-12 brand-color">Frequently Asked Questions</h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div

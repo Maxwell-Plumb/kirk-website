@@ -45,7 +45,7 @@ const ServiceModal = ({ isOpen, onClose, service }) => {
                 <div className="absolute right-0 top-0 pr-4 pt-4 z-10">
                   <button
                     type="button"
-                    className="rounded-md bg-gray-900 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+                    className="rounded-md bg-gray-900 brand-color hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
                     onClick={onClose}
                   >
                     <span className="sr-only">Close</span>
@@ -93,7 +93,7 @@ const ServiceModal = ({ isOpen, onClose, service }) => {
                   {callToAction ? (
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-full bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 sm:ml-3 sm:w-auto"
+                      className="inline-flex w-full justify-center rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 sm:ml-3 sm:w-auto"
                       onClick={callToAction.onClick}
                     >
                       {callToAction.text}

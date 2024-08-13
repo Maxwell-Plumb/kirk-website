@@ -15,7 +15,9 @@ const ServiceCard = ({ image, title, description, link }) => {
           }}></div>
           <div className="absolute bottom-0 left-0 p-6 w-full transition-transform duration-300 ease-in-out group-hover:-translate-y-2">
             <div className="max-w-[65%]">
-              <h3 className="text-2xl font-extrabold mb-2 text-white leading-tight uppercase tracking-wide">{title}</h3>
+                <h3 className="text-2xl font-extrabold mb-2 text-white leading-tight uppercase tracking-wide group-hover:text-[#1E90FF]">
+                {title}
+              </h3>
               <p className="text-sm font-medium text-gray-200">{description}</p>
             </div>
           </div>

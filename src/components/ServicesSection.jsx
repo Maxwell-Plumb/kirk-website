@@ -44,7 +44,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="services-section py-12 px-4 bg-black">
+    <section id="services" className="services-section py-12 px-4 bg-black">
       <Swiper
         spaceBetween={1}
         slidesPerView={1.2}

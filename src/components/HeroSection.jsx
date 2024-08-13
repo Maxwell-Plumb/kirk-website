@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom'
 
 const HeroSection = () => {
+  const navigate = useNavigate()
+
+  const handleClick = () => {
+    navigate('/contact')
+  }
   return (
-    <div className="relative h-screen w-full overflow-hidden pt-4 pr-4 pl-2 pb-20">
+    <div id="HeroSection" className="relative h-screen w-full overflow-hidden pt-4 pr-4 pl-2 pb-20">
       <div className="relative h-full w-full rounded-3xl overflow-hidden">
         {/* Background image with gradient overlay */}
         <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: `url('https://plus.unsplash.com/premium_photo-1666299429593-4da062e5e341?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`}}>
@@ -21,10 +27,11 @@ const HeroSection = () => {
             Expert Solutions. Effortless Living.
           </motion.h1>
           <motion.button 
-            className="bg-[#DC143C] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-opacity-90 transition-colors duration-300 w-max"
+            className="bg-brand-color text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-opacity-90 transition-colors duration-300 w-max"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.5 }}
+            onClick={handleClick}
           >
             Contact Me
           </motion.button>

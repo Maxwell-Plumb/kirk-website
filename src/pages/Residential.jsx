@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ServiceHero from '../components/services/ServiceHero';
 import ServiceGrid from '../components/services/ServiceGrid';
 import ServiceModal from '../components/services/ServiceModal';
+import { useNavigate } from 'react-router-dom'
 
 const services = [
     { 
@@ -17,7 +18,7 @@ const services = [
         ],
         callToAction: {
             text: 'Schedule Your Drain Cleaning',
-            onClick: () => console.log('Schedule Drain Cleaning clicked')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -39,7 +40,7 @@ const services = [
         ],
         callToAction: {
             text: 'Schedule Leak Inspection Now',
-            onClick: () => console.log('Schedule Leak Inspection clicked')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -68,7 +69,7 @@ const services = [
         ],
         callToAction: {
             text: 'Schedule Water Heater Service Now',
-            onClick: () => console.log('Schedule Water Heater Service clicked')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -104,7 +105,7 @@ const services = [
         ],
         callToAction: {
             text: 'Schedule Pipe Inspection Now',
-            onClick: () => console.log('Schedule Pipe Inspection clicked')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -139,7 +140,7 @@ const services = [
         ],
         callToAction: {
             text: 'Schedule Boiler Service Now',
-            onClick: () => console.log('Schedule Boiler Service clicked')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -216,7 +217,7 @@ const services = [
         ],
         callToAction: {
             text: 'Schedule a Camera Inspection Today',
-            onClick: () => console.log('Camera Inspection Service scheduled')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -255,7 +256,7 @@ const services = [
         ],
         callToAction: {
             text: 'Schedule Fixture Repair Now',
-            onClick: () => console.log('Fixture Repair Service scheduled')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -294,7 +295,7 @@ const services = [
         ],
         callToAction: {
             text: 'Schedule Sump Pump Service',
-            onClick: () => console.log('Sump Pump Service scheduled')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -322,7 +323,7 @@ const services = [
         ],
         callToAction: {
             text: 'Book Sewer Cleaning Now',
-            onClick: () => console.log('Sewer Cleaning Service booked')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -350,7 +351,7 @@ const services = [
         ],
         callToAction: {
             text: 'Schedule Water Jetting Service',
-            onClick: () => console.log('Water Jetting Service scheduled')
+            onClick: null
         },
         additionalContent: (
             <div>
@@ -368,6 +369,7 @@ const services = [
 
 const Residential = () => {
     const [selectedService, setSelectedService] = useState(null);
+    const navigate = useNavigate()
   
     const handleCardClick = (service) => {
       setSelectedService(service);
@@ -377,6 +379,10 @@ const Residential = () => {
       setSelectedService(null);
     };
   
+    services.forEach(service => {
+        service.callToAction.onClick = () => navigate('/contact')
+    })
+    
     return (
       <div>
         <ServiceHero
