@@ -34,8 +34,10 @@ const ConnectNowModal = () => {
     };
   }, [isOpen]);
 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
   
     const formData = {
       fullName: e.target.elements.fullName.value,
@@ -64,10 +66,11 @@ const ConnectNowModal = () => {
       setFeedbackMessage('There was an error sending your message. Please try again.');
       setIsError(true);
     } finally {
+      setIsLoading(false);
       setIsFeedbackOpen(true);
       setIsOpen(false);
     }
-  };  
+  };
 
   return (
     <div>
@@ -146,6 +149,7 @@ const ConnectNowModal = () => {
                   type="button"
                   className="px-4 py-2 bg-gray-300 rounded-md text-gray-800 hover:bg-gray-400"
                   onClick={toggleModal}
+                  disabled={isLoading}
                 >
                   Cancel
                 </button>
