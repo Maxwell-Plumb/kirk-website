@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link as ScrollLink } from 'react-scroll';
 
 const NavBar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
