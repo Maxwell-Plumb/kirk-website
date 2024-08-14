@@ -55,7 +55,7 @@ const ConnectButton = () => {
                   transition-all duration-300 
                   transform hover:scale-110
 
-                  sm:py-3 sm:px-6 sm:text-lg
+                  sm:py-3 sm:px-6 sm:text-sm
                   md:py-3 md:px-6 md:text-lg
                   lg:py-3.5 lg:px-7.5 lg:text-xl
                 "

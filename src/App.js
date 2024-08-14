@@ -37,8 +37,9 @@ const App = () => {
               <Route path='/services/gas-lines' element={<GasLines />} />
             </Routes>
           </Suspense>
+          <ConnectButton />
         </main>
-        <ConnectButton />
+        
         <Footer />
       </div>
     </Router>
