@@ -7,7 +7,7 @@ import ServiceModal from '../components/services/ServiceModal';
 const airConditioningServices = [
     {
         title: 'Air Chillers',
-        image: 'https://images.unsplash.com/photo-1708449287110-2f2418fb5a62?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Air+Chillers.webp',
         description: 'High-efficiency air chillers for optimal cooling performance.',
         longDescription: "Experience superior cooling with our state-of-the-art air chiller systems. At Maxwell Plumb Mechanical, we specialize in installing, maintaining, and repairing air chillers designed to meet the demands of commercial and industrial environments. Our expert technicians ensure your air chiller operates at peak efficiency, providing consistent temperature control while minimizing energy consumption.",
         features: [
@@ -29,7 +29,7 @@ const airConditioningServices = [
     },
     {
         title: 'Air Conditioner Installation',
-        image: 'https://images.unsplash.com/photo-1718203862467-c33159fdc504?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWlyJTIwY29uZGl0aW9uZXJ8ZW58MHx8MHx8fDI%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Air+Conditioner+Installation.webp',
         description: 'Professional AC installation for optimal comfort and efficiency.',
         longDescription: "Upgrade your space with expert air conditioner installation from Maxwell Plumb Mechanical. Our skilled technicians ensure your new AC system is perfectly sized and installed for maximum performance and energy efficiency. We handle everything from unit selection to final testing, providing you with a cool, comfortable environment that lasts.",
         features: [
@@ -51,7 +51,7 @@ const airConditioningServices = [
       },
       {
         title: 'Air Conditioner Maintenance',
-        image: 'https://images.unsplash.com/photo-1527738697320-513f6648bc26?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Air+Conditioner+Maintenance.webp',
         description: 'Regular AC maintenance to ensure peak performance and longevity.',
         longDescription: "Keep your air conditioning system running smoothly with our comprehensive maintenance services. At Maxwell Plumb Mechanical, we offer thorough inspections, cleaning, and tune-ups to prevent breakdowns, improve efficiency, and extend the life of your AC unit. Our preventative maintenance plans save you money on energy bills and costly repairs.",
         features: [
@@ -73,7 +73,7 @@ const airConditioningServices = [
     },
     {
         title: 'Air Conditioner Repair',
-        image: 'https://images.unsplash.com/photo-1642749776312-aa42ce20c9f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Air+Conditioner+Repair.webp',
         description: 'Swift and reliable AC repair services to restore your comfort.',
         longDescription: "When your air conditioner breaks down, Maxwell Plumb Mechanical is here to help. Our expert technicians provide fast, efficient repair services for all makes and models of AC units. We diagnose issues quickly and offer transparent solutions to get your system back up and running, ensuring your space stays cool and comfortable.",
         features: [
@@ -95,7 +95,7 @@ const airConditioningServices = [
     },
     {
         title: 'Ductless Air Conditioning',
-        image: 'https://images.unsplash.com/photo-1694675879520-ff32d348fb7f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Ductless+Air+Conditioning.webp',
         description: 'Efficient and flexible cooling solutions for any space.',
         longDescription: "Experience the ultimate in comfort and efficiency with ductless air conditioning systems from Maxwell Plumb Mechanical. Our ductless AC solutions offer precise temperature control for individual rooms or zones, making them perfect for homes without existing ductwork, additions, or areas needing supplemental cooling. Enjoy quiet operation, improved air quality, and significant energy savings with our expert installation and maintenance services.",
         features: [
@@ -117,7 +117,7 @@ const airConditioningServices = [
     },
     {
         title: 'Thermostats',
-        image: 'https://images.unsplash.com/photo-1663602692362-80e4564384c0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Thermostats.webp',
         description: 'Smart temperature control for optimal comfort and efficiency.',
         longDescription: "Upgrade your climate control with cutting-edge thermostat solutions from Maxwell Plumb Mechanical. Our selection of advanced thermostats, including smart and programmable options, gives you precise control over your home or office environment. Experience enhanced comfort, significant energy savings, and the convenience of managing your HVAC system from anywhere with our expert thermostat installation and setup services.",
         features: [
@@ -142,7 +142,7 @@ const airConditioningServices = [
 const heatingServices = [
     {
         title: 'Boiler Installation',
-        image: 'https://media.istockphoto.com/id/1904784620/photo/during-construction-of-house-a-gas-water-boiler-tank-was-installed.webp?b=1&s=170667a&w=0&k=20&c=uGffVXKYKijX5DlZAeXpjgcA3fjrMR5DQjumznxUz8U=',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Boiler+Installation.webp',
         description: 'Professional installation of commercial heating systems.',
         longDescription: "Upgrade your commercial heating with expert boiler installation services from Maxwell Plumb Mechanical. Our team specializes in fitting high-efficiency boilers tailored to your business needs. We handle everything from system design to final commissioning, ensuring a seamless transition to a more efficient and reliable heating solution. Our installations are designed to minimize downtime and maximize long-term energy savings for your facility.",
         features: [
@@ -164,7 +164,7 @@ const heatingServices = [
     },
     {
         title: 'Boiler Maintenance',
-        image: 'https://img.freepik.com/free-photo/worker-repairing-water-heater_23-2149334227.jpg?t=st=1723567868~exp=1723571468~hmac=054e81a14c37e070bbc7c0c56a922d850b3b86ffae4e5d365f8e4dc8f0800c90&w=1380',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Boiler+Maintenance.webp',
         description: 'Comprehensive boiler maintenance and repair.',
         longDescription: "Keep your boiler system running at peak efficiency with Maxwell Plumb Mechanical's expert maintenance services. Our skilled technicians provide thorough inspections, cleaning, and tune-ups to prevent unexpected breakdowns and extend the life of your boiler. From routine check-ups to emergency repairs, we ensure your heating system operates safely and efficiently year-round, minimizing downtime and maximizing energy savings for your business.",
         features: [
@@ -186,7 +186,7 @@ const heatingServices = [
     },
     {
         title: 'Boiler Repair',
-        image: 'https://img.freepik.com/free-photo/plumber-fixing-boiler-inside-house-ai-generative_123827-24165.jpg?t=st=1723567912~exp=1723571512~hmac=1c465fc6708b5fa85abc1f8d8e6122d7091d0ba69f994b9aa0ea38948156df46&w=1380',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Boiler+Repair.webp',
         description: 'Fast, reliable boiler repair services to restore your heating.',
         longDescription: "When your boiler system fails, Maxwell Plumb Mechanical is here to get you back up and running quickly. Our expert technicians are equipped to diagnose and repair all types of boiler issues, from minor fixes to major overhauls. We understand the critical nature of heating in commercial and residential settings, which is why we offer prompt, efficient repair services to minimize downtime and ensure your comfort and safety.",
         features: [
