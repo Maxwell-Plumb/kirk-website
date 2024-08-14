@@ -16,8 +16,8 @@ const ContactPage = lazy(() => import('./pages/ContactPage'))
 const App = () => {
   return (
     <div className="bg-black min-h-screen">
+      <Navbar />
       <main className="container mx-auto">
-        <Navbar />
         <Suspense fallback={<div>Loading...</div>}>
         <Router>
           <Routes>
@@ -32,8 +32,8 @@ const App = () => {
           <ConnectButton />
         </Router>
         </Suspense>
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 };
