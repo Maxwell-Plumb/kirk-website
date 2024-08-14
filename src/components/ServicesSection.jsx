@@ -7,35 +7,35 @@ import SwipeIndicator from './SwipeIndicator'
 const services = [
   { 
     id: 1,
-    image: 'https://images.unsplash.com/photo-1522444195799-478538b28823?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+    image: 'https://kirk-website.s3.us-east-2.amazonaws.com/ServicesSection+-+Residential+Services.webp', 
     title: 'Residential Services', 
     description: 'Home comfort solutions for every need.',
     link: '/services/residential'
   },
   { 
     id: 2,
-    image: 'https://images.unsplash.com/photo-1708449287110-2f2418fb5a62?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+    image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Air+Chillers.webp', 
     title: 'Commercial HVAC', 
     description: 'Efficient climate control for businesses.',
     link: '/services/commercial-hvac'
   },
   { 
     id: 3,
-    image: 'https://images.unsplash.com/photo-1513828742140-ccaa28f3eda0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+    image: 'https://kirk-website.s3.us-east-2.amazonaws.com/ServicesSection+-+Commercial+Plumbing.webp', 
     title: 'Commercial Plumbing', 
     description: 'Expert plumbing for commercial properties.',
     link: '/services/commercial-plumbing'
   },
   { 
     id: 4,
-    image: 'https://images.unsplash.com/photo-1577678923709-758495cb4497?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+    image: 'https://kirk-website.s3.us-east-2.amazonaws.com/ServicesSection+-+Fire+Sprinklers.webp', 
     title: 'Fire Sprinklers', 
     description: 'Safety-first fire prevention systems.',
     link: '/services/fire-sprinklers'
   },
   { 
     id: 5,
-    image: 'https://images.unsplash.com/photo-1607324772107-8ad6740ca195?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+    image: 'https://kirk-website.s3.us-east-2.amazonaws.com/ServicesSection+-+Gas+Lines.webp', 
     title: 'Gas Lines', 
     description: 'Safe, reliable gas line services.',
     link: '/services/gas-lines'

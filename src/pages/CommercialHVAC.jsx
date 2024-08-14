@@ -296,7 +296,7 @@ const heatingServices = [
     },
     {
         title: 'Heating System Installation',
-        image: 'https://img.freepik.com/free-photo/service-man-adjusting-house-heating-system_1303-26535.jpg?ga=GA1.1.1934083247.1723567866&semt=ais_hybrid',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Heating+System+Installation.webp',
         description: 'Professional heating system installation for optimal home comfort.',
         longDescription: "Upgrade your home's heating with our expert installation services. At Maxwell Plumb Mechanical, we specialize in installing a wide range of heating systems, from energy-efficient furnaces to state-of-the-art heat pumps. Our skilled technicians ensure your new system is perfectly sized and installed for maximum efficiency and comfort, providing you with reliable warmth for years to come.",
         features: [
@@ -318,7 +318,7 @@ const heatingServices = [
     },
     {
         title: 'Steam and Heat Pressure',
-        image: 'https://img.freepik.com/free-photo/modern-autonomous-heating-system-boiler-room_169016-51929.jpg?t=st=1723568829~exp=1723572429~hmac=5bf8950df892d1e1120e712d57c4275f6dec4f71ddaeaf0f2e4f27515f2eeb12&w=740',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+HVAC+Services+-+Steam+and+Heat+Pressure.webp',
         description: 'Expert steam and heat pressure system services for optimal performance and efficiency.',
         longDescription: "Ensure your steam and heat pressure systems operate at peak efficiency with our specialized services. At Maxwell Plumb Mechanical, our team of skilled technicians is equipped to handle all aspects of steam and heat pressure systems, from routine maintenance to complex repairs and installations. We work diligently to optimize your system's performance, ensuring consistent heating and energy savings for your home or business.",
         features: [

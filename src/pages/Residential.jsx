@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 const services = [
     { 
         title: 'Drain Cleaning', 
-        image: 'https://images.unsplash.com/photo-1700174542278-4f8fc5ab6565?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Drain+Cleaning.webp', 
         description: 'Professional drain cleaning to prevent costly plumbing issues.',
         longDescription: "Don't let minor clogs become major headaches. Our expert drain cleaning service tackles stubborn buildup from food, grease, soap, and hair before it leads to expensive repairs. At Maxwell Plumb Mechanical, our skilled technicians use advanced equipment and years of experience to swiftly resolve any clog, keeping your pipes flowing smoothly.",
         features: [
@@ -29,7 +29,7 @@ const services = [
     },
     {
         title: 'Leak Detection and Repair',
-        image: 'https://images.unsplash.com/photo-1615400874699-6b0b9fd6e9a0?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Leak+Detection+and+Repair.webp',
         description: 'Swift, expert leak detection and repair to safeguard your home and wallet.',
         longDescription: "Hidden leaks can silently damage your home and inflate your water bills. At Maxwell Plumb Mechanical, our New York City experts swiftly detect and repair leaks, preventing mold, foundation damage, and health risks. We focus on quick, effective solutions to save you time and money.",
         features: [
@@ -57,7 +57,7 @@ const services = [
     },
     {
         title: 'Water Heater Installation and Repair',
-        image: 'https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/water-heater-installation-basics-2022-hero.jpg',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Water+Heater+Installation+and+Repair.webp',
         description: 'Expert water heater services for comfort and efficiency.',
         longDescription: "Don't let a failing water heater disrupt your daily life. Maxwell Plumb Mechanical offers comprehensive water heater solutions, from emergency repairs to energy-efficient installations. Our New York City experts ensure you have reliable hot water while maximizing energy savings.",
         features: [
@@ -93,7 +93,7 @@ const services = [
     },
     {
         title: 'Pipe Repair and Replacement',
-        image: 'https://images.unsplash.com/photo-1647105604066-86ea4247e217?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Pipe+Repair+and+Replacement.webp',
         description: 'Swift, reliable pipe solutions to protect your home and health.',
         longDescription: "Don't let pipe issues disrupt your life or endanger your home. Maxwell Plumb Mechanical offers expert pipe repair and replacement services in New York City, addressing everything from minor leaks to major bursts. We prioritize your safety, budget, and peace of mind with transparent pricing and flexible payment options.",
         features: [
@@ -128,7 +128,7 @@ const services = [
     },
     {
         title: 'Boiler Services',
-        image: 'https://images.unsplash.com/photo-1650551182956-47efa0f90b64?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjk1fHxwbHVtYmluZ3xlbnwwfHwwfHx8Mg%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Boiler+Services.webp',
         description: 'Expert boiler repair and installation for year-round comfort.',
         longDescription: "Don't let a faulty boiler leave you in the cold. Maxwell Plumb Mechanical offers comprehensive boiler services across NYC, ensuring your home stays warm and comfortable even in the harshest winters. With over 30 years of experience, our licensed technicians provide 24/7 expert repair and installation for all boiler types and brands.",
         features: [
@@ -164,7 +164,7 @@ const services = [
     },
     {
         title: 'Emergency Plumbing',
-        image: 'https://images.unsplash.com/photo-1676210134188-4c05dd172f89?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Emergency+Plumbing.webp',
         description: 'Swift, reliable 24/7 emergency plumbing solutions.',
         longDescription: "Plumbing emergencies don't wait for business hours. At Maxwell Plumb Mechanical, we're on call 24/7 to tackle your urgent plumbing issues. Our team of licensed professionals arrives quickly, equipped to handle any emergency, from burst pipes to severe clogs. We prioritize your safety and property protection, providing immediate relief and lasting solutions.",
         features: [
@@ -204,7 +204,7 @@ const services = [
     },
     {
         title: 'Camera Inspections',
-        image: 'https://accurateelectricplumbingheatingandair.com/wp-content/uploads/2018/06/Sewer-Camera-Inspection-1.png',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Camera+Inspections.webp',
         description: 'High-tech camera inspections for precise plumbing diagnostics.',
         longDescription: "At Maxwell Plumb Mechanical, we bring the latest technology to your plumbing issues. Our advanced camera inspection services allow us to see deep into your pipes, identifying problems with pinpoint accuracy. This non-invasive method saves time, money, and prevents unnecessary damage to your property, ensuring we provide the most effective solutions for your plumbing needs.",
         features: [
@@ -243,7 +243,7 @@ const services = [
     },
     {
         title: 'Fixture Repairs',
-        image: 'https://images.unsplash.com/photo-1542013936693-884638332954?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Fixture+Repairs.webp',
         description: 'Expert repair and replacement for all plumbing fixtures.',
         longDescription: "Don't let faulty fixtures disrupt your daily routine. At Maxwell Plumb Mechanical, we specialize in repairing and replacing all types of plumbing fixtures. From leaky faucets to malfunctioning toilets, our skilled technicians provide swift, reliable solutions. We ensure your fixtures not only function flawlessly but also enhance your home's efficiency and aesthetics.",
         features: [
@@ -283,7 +283,7 @@ const services = [
     },
     {
         title: 'Sump Pump Repairs',
-        image: 'https://images.unsplash.com/photo-1693463735697-73df1f35930d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzA2fHxwbHVtYmluZ3xlbnwwfHwwfHx8Mg%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Sump+Pump+Repairs.webp',
         description: 'Reliable sump pump repairs to safeguard your home from water damage.',
         longDescription: "Don't let a faulty sump pump put your home at risk. Our expert technicians provide fast, efficient repairs and maintenance to ensure your basement stays dry. We service all brands and models, offering 24/7 emergency support for your peace of mind.",
         features: [
@@ -311,7 +311,7 @@ const services = [
     },
     {
         title: 'Sewer Cleaning',
-        image: 'https://images.unsplash.com/photo-1605600659873-d808a13e4d2a?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Sewer+Cleaning.webp',
         description: 'Professional sewer cleaning for a healthy, efficient plumbing system.',
         longDescription: "Prevent backups and maintain your home's sanitation with our expert sewer cleaning services. We use advanced techniques like hydro jetting to clear even the toughest blockages, ensuring your sewer lines flow smoothly and efficiently.",
         features: [
@@ -339,7 +339,7 @@ const services = [
     },
     {
         title: 'Water Jetting',
-        image: 'https://media.licdn.com/dms/image/v2/D5612AQH9UYzmBihvFg/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1694190259386?e=1729123200&v=beta&t=jC2Tbtx5fHH9d6hyWyJt4UYgB6oFR6l2hV44CxEhiYo',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Residential+-+Water+Jetting.webp',
         description: 'Powerful water jetting to eliminate tough clogs and buildup.',
         longDescription: "Our high-pressure water jetting service blasts away even the most stubborn blockages, grease buildup, and tree roots. This eco-friendly method thoroughly cleans your pipes, restoring full flow and preventing future clogs.",
         features: [

@@ -6,7 +6,7 @@ import ServiceModal from '../components/services/ServiceModal';
 const fireServices = [
     {
         title: 'Residential Fire Sprinklers',
-        image: 'https://cdn.create.vista.com/api/media/medium/11525288/stock-photo-fire-security?token=',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Fire+Sprinklers+-+Residential+Fire+Sprinklers.webp',
         description: 'Custom-designed fire sprinkler systems for homes.',
         longDescription: "Our engineers and master plumbers design and install residential fire sprinkler systems created specifically for your home. These systems are hydrostatically tested at 200 psi for 2 hours, ensuring reliability and minimizing unexpected activation.",
         features: [
@@ -40,7 +40,7 @@ const fireServices = [
     },
     {
         title: 'Standpipe Systems',
-        image: 'https://www.chesapeakesprinkler.com/wp-content/uploads/2022/04/chesapeake-sprinkler-deluge-fire-sprinkler-systems.jpg',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Fire+Sprinklers+-+Standpipe+Systems.webp',
         description: 'Essential fire protection for multi-story buildings.',
         longDescription: "Standpipes act as a fire hydrant for individual buildings, providing a crucial water source for firefighters. Our team expertly designs, installs, and maintains standpipe systems that comply with New York City regulations.",
         features: [
@@ -57,7 +57,7 @@ const fireServices = [
     },
     {
         title: 'Fire Sprinkler Inspections',
-        image: 'https://png.pngtree.com/thumb_back/fh260/background/20220529/pngtree-red-pipes-with-sprinkler-and-fire-alarm-systems-photo-image_22221358.jpg',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Fire+Sprinklers+-+Fire+Sprinkler+Inspections.webp',
         description: 'Ensure your fire protection system is always ready.',
         longDescription: "Regular inspections are crucial to maintain the effectiveness of your fire sprinkler system. Our FDNY-certified technicians perform thorough inspections, ensuring your system is always in perfect working condition and compliant with regulations.",
         features: [
@@ -74,7 +74,7 @@ const fireServices = [
     },
     {
         title: 'Fire Sprinkler Repairs',
-        image: 'https://vanguard-fire.com/wp-content/uploads/2022/03/corrosion-in-fire-systems-scaled.jpg',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Fire+Sprinklers+-+Fire+Sprinkler+Repairs.webp',
         description: 'Swift and reliable repairs for all fire sprinkler systems.',
         longDescription: "When your fire sprinkler system needs repair, time is of the essence. Our experienced technicians provide fast, efficient repair services for all types of fire sprinkler systems, ensuring your property remains protected at all times.",
         features: [

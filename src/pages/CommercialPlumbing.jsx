@@ -142,7 +142,7 @@ const generalPlumbingServices = [
 const specializedServices = [
     {
         title: 'Trenchless Sewer Repair',
-        image: 'https://img.freepik.com/free-photo/construction-site-with-old-pipes_23-2148254074.jpg?t=st=1723570656~exp=1723574256~hmac=9409220fc236c04f95ff4d66fd44c1d1f62be877419562ec5687d747f3f5817e&w=1380',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Commercial+Plumbing+-+Trenchless+Sewer+Repair.webp',
         description: 'Minimally invasive sewer repair techniques.',
         longDescription: "Experience the future of sewer repair with Maxwell Plumb Mechanical's trenchless technology. Our innovative, minimally invasive techniques allow us to repair or replace your sewer lines without the extensive excavation and landscape disruption associated with traditional methods. Using state-of-the-art equipment, we can diagnose and fix sewer line issues quickly and efficiently, saving you time, money, and the headache of a torn-up yard.",
         features: [

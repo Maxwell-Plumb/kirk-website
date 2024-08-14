@@ -6,7 +6,7 @@ import ServiceModal from '../components/services/ServiceModal';
 const gasLineServices = [
     {
         title: 'Gas Line Installation',
-        image: 'https://www.plumbwellservices.com/wp-content/uploads/2022/02/KeyBenefits-ConvertingNaturalGas.jpg',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Gas+Line+-+Gas+Line+Installation.webp',
         description: 'Professional installation of new gas supply lines.',
         longDescription: "Our elite team of commercial plumbers is trained and qualified to install new gas supply lines for your business. We ensure all installations meet the latest industry standards and local regulations, including Local Law 152.",
         features: [
@@ -23,7 +23,7 @@ const gasLineServices = [
     },
     {
         title: 'Gas Line Relocation',
-        image: 'https://buzzgaslinerelocation.com/photo/buzzgaslinerelocationcom/gas-line-relocation.jpg',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Gas+Line+-+Gas+Line+Relocation.webp',
         description: 'Expert relocation of existing gas lines.',
         longDescription: "When your business needs change, we're here to help relocate your existing gas lines safely and efficiently. Our experienced technicians ensure that all relocated lines meet current safety standards and regulations.",
         features: [
@@ -40,7 +40,7 @@ const gasLineServices = [
     },
     {
         title: 'Gas Leak Detection',
-        image: 'https://www.bienvenu.com/wp-content/uploads/2021/09/5-ways-to-detect-a-gas-leak-in-your-home.jpg',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Gas+Line+-+Gas+Line+Detection.webp',
         description: 'Swift and accurate gas leak detection services.',
         longDescription: "Gas leaks can be extremely dangerous. Our experienced technicians use proven technologies to quickly locate and identify gas leaks, ensuring the safety of your property and occupants.",
         features: [
@@ -57,7 +57,7 @@ const gasLineServices = [
     },
     {
         title: 'Gas Line Repair',
-        image: 'https://paulbunyanplumbing.com/wp-content/uploads/2024/01/gas-line-repair.jpg',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Gas+Line+-+Gas+Line+Repair.webp',
         description: 'Expert repair services for all types of gas lines.',
         longDescription: "When a gas leak is detected, our certified plumbers are ready to provide swift and effective repairs. We work on all types of gas lines, ensuring they are leak-free and safe for continued use.",
         features: [
@@ -74,7 +74,7 @@ const gasLineServices = [
     },
     {
         title: 'Gas Line Inspections',
-        image: 'https://b3503797.smushcdn.com/3503797/wp-content/uploads/2021/12/Screen-Shot-2021-12-01-at-9.17.33-AM-1024x682.png?lossy=2&strip=1&webp=1',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Gas+Line+-+Gas+Line+Inspection.webp',
         description: 'Thorough inspections to ensure gas line safety and compliance.',
         longDescription: "Regular gas line inspections are crucial for maintaining safety and compliance. Our detailed inspections cover all aspects of your gas system, from supply lines to connections, ensuring everything meets current standards and regulations.",
         features: [
@@ -91,7 +91,7 @@ const gasLineServices = [
     },
     {
         title: 'Emergency Gas Services',
-        image: 'https://taraenergy.com/wp-content/uploads/2022/12/Gas-Leaks-Image-of-Gas-Pipe-Blowing-Steam-scaled.jpeg',
+        image: 'https://kirk-website.s3.us-east-2.amazonaws.com/Gas+Line+-+Emergency+Gas+Services.webp',
         description: '24/7 emergency gas line services for your peace of mind.',
         longDescription: "Gas emergencies require immediate attention. Our team is available 24/7 to respond to gas-related emergencies, providing rapid assessment, leak control, and necessary repairs to ensure your safety.",
         features: [

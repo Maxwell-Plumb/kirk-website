@@ -32,7 +32,7 @@ const AboutSection = () => {
           </div>
           <div className="h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1618840626133-54463084a141?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0" 
+              src="https://kirk-website.s3.us-east-2.amazonaws.com/AboutSection+-+HVAC+Technician+At+Work.webp" 
               alt="HVAC Technician at work"
               className="w-full h-full object-cover"
             />
@@ -43,7 +43,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mb-12 md:mb-20">
           <div className="order-2 md:order-1 h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+              src="https://kirk-website.s3.us-east-2.amazonaws.com/AboutSection+-+Modern+Home+HVAC+System.webp" 
               alt="Modern home HVAC system"
               className="w-full h-full object-cover"
             />
