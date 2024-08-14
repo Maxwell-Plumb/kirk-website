@@ -3,6 +3,7 @@ import ServicesSection from '../components/ServicesSection'
 import AboutSection from '../components/AboutSection'
 import VideosSection from '../components/VideosSection'
 import FAQSection from '../components/FAQSection'
+import ConnectButton from '../components/ConnectButton'
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
         <AboutSection />     
         <VideosSection />
         <FAQSection />
+        <ConnectButton />
         </>
     )
 }
