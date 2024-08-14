@@ -3,17 +3,17 @@
   "name": "Kirk Seubert",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://kirk-website.s3.us-east-2.amazonaws.com/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://kirk-website.s3.us-east-2.amazonaws.com/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://kirk-website.s3.us-east-2.amazonaws.com/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
