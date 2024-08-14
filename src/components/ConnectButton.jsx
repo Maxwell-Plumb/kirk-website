@@ -58,7 +58,7 @@ const ConnectButton = () => {
                   sm:py-3 sm:px-6 sm:text-sm
                   md:py-3 md:px-6 md:text-lg
                   lg:py-3.5 lg:px-7.5 lg:text-xl
-                "
+                " style={{ zIndex: 999 }}
               >
                 Connect Now
               </button>
