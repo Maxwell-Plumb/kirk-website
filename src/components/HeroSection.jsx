@@ -1,40 +1,65 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+import TypingHeading from './TypingHeading';
 
 const HeroSection = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/contact')
-  }
+    navigate('/contact');
+  };
+
   return (
-    <div id="HeroSection" className="relative w-full overflow-hidden p-4 pb-8 bg-black">
-      <div className="relative h-[calc(100vh-6rem)] sm:h-[calc(100vh-8rem)] md:h-[calc(100vh-8rem)] w-full rounded-3xl overflow-hidden">
-        {/* Background image with gradient overlay */}
-        <div rel="preload" as="image" className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: `url('https://plus.unsplash.com/premium_photo-1666299429593-4da062e5e341?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`}}>
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-800/70 to-transparent"></div>
-        </div>
+    <div id="HeroSection" className="relative w-full h-screen bg-black p-4">
+      <div className="relative h-full w-full rounded-3xl overflow-hidden">
+        <motion.div
+          className="absolute inset-0 bg-gradient-to-br from-blue-800 via-purple-700 to-indigo-900 animate-bgShift"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        ></motion.div>
         
-        {/* Content container */}
-        <div className="absolute inset-0 flex flex-col justify-end p-4 sm:p-8 md:p-16">
-          <motion.h1 
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-4 sm:mb-6 text-white leading-tight w-full sm:w-3/4 md:w-2/3 lg:w-1/2"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            Expert Solutions. Effortless Living.
-          </motion.h1>
-          <motion.button 
-            className="bg-brand-color text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-opacity-90 transition-colors duration-300 w-max"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.5 }}
-            onClick={handleClick}
-          >
-            Contact Me
-          </motion.button>
+        <motion.div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
+          style={{ 
+            backgroundImage: `url('https://kirk-website.s3.us-east-2.amazonaws.com/Kirk+Seubert+-+Headshot.webp')`,
+          }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        ></motion.div>
+        
+        <motion.div className="absolute inset-0 bg-black opacity-30"></motion.div>
+        
+        <div className="relative h-full flex flex-col justify-end p-8 md:p-16">
+          <div className="w-3/4 md:w-1/2">
+            <motion.h1 
+              className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight mb-2"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+            >
+              <TypingHeading />
+            </motion.h1>
+            <motion.p
+              className="text-sm sm:text-base md:text-lg text-white mb-4"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
+              NYC's premier plumbing & HVAC specialists since 1990
+            </motion.p>
+            <motion.button 
+              className="bg-blue-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-lg"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.5 }}
+              onClick={handleClick}
+            >
+              Connect Now
+            </motion.button>
+          </div>
         </div>
       </div>
     </div>
