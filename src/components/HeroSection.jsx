@@ -63,7 +63,7 @@ const HeroSection = () => {
         </div>
         
       </div>
-      <div className="pb-28 md:pb-20 lg:pb-16"></div> {/* Extra padding to factor in the browser UI */}
+      <div className="pb-24 md:pb-18"></div> {/* Extra padding to factor in the browser UI */}
     </div>
   );
 };

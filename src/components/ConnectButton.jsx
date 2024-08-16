@@ -64,7 +64,7 @@ END:VCARD`;
       <AnimatePresence>
         {showButton && (
           <motion.div
-            className="fixed bottom-6 right-6 flex flex-col space-y-2"
+            className="fixed bottom-6 right-6 flex flex-col items-end space-y-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -78,9 +78,9 @@ END:VCARD`;
                   transition-all duration-300 
                   transform hover:scale-110
 
-                  sm:py-3 sm:px-6 sm:text-sm
-                  md:py-3 md:px-6 md:text-lg
-                  lg:py-3.5 lg:px-7.5 lg:text-xl
+                  sm:py-3.5 sm:px-6.5 sm:text-sm
+                  md:py-2.5 md:px-5.75 md:text-lg md:scale-105
+                  lg:py-3 lg:px-7 lg:text-lg lg:scale-110
                 " style={{ zIndex: 999 }}
               >
                 Connect Now
@@ -95,9 +95,9 @@ END:VCARD`;
                 transition-all duration-300 
                 transform hover:scale-110
 
-                sm:py-2 sm:px-4 sm:text-xs
-                md:py-2 md:px-4 md:text-sm
-                lg:py-2.5 lg:px-5 lg:text-base
+                sm:py-2.5 sm:px-4.5 sm:text-xs
+                md:py-2.5 md:px-5.75 md:text-lg md:scale-105
+                lg:py-3 lg:px-6 lg:text-lg lg:scale-105
               " style={{ zIndex: 999 }}
             >
               Download Contact
