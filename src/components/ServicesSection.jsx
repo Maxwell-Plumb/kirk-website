@@ -2,7 +2,9 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import ServiceCard from './ServiceCard';
-import SwipeIndicator from './SwipeIndicator'
+import SwipeIndicator from './SwipeIndicator';
+import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion';
 
 const services = [
   { 
@@ -43,8 +45,36 @@ const services = [
 ];
 
 const ServicesSection = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,  // Adjust the threshold to determine how much of the section needs to be in view
+  });
+
+  const slideVariants = {
+    hidden: { opacity: 0, x: 100 },  // Start off-screen to the right
+    visible: (i) => ({
+      opacity: 1,
+      x: 0,  // Slide in to the correct position
+      transition: {
+        delay: i * 0.2,  // Stagger the reveal of each slide
+        duration: 0.6,
+        ease: 'easeOut',
+      },
+    }),
+  };
+
   return (
-    <section id="services" className="services-section py-12 px-4 bg-black">
+    <motion.section
+      id="services"
+      className="services-section py-12 px-4 bg-black"
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={{
+        hidden: {},
+        visible: {},
+      }}
+    >
       <Swiper
         spaceBetween={1}
         slidesPerView={1.2}
@@ -61,14 +91,21 @@ const ServicesSection = () => {
           },
         }}
       >
-        {services.map((service) => (
+        {services.map((service, index) => (
           <SwiperSlide key={service.id}>
-            <ServiceCard
-              image={service.image}
-              title={service.title}
-              description={service.description}
-              link={service.link}
-            />
+            <motion.div
+              custom={index}
+              initial="hidden"
+              animate={inView ? "visible" : "hidden"}
+              variants={slideVariants}
+            >
+              <ServiceCard
+                image={service.image}
+                title={service.title}
+                description={service.description}
+                link={service.link}
+              />
+            </motion.div>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -76,7 +113,7 @@ const ServicesSection = () => {
       <div className="mt-6">
         <SwipeIndicator />
       </div>
-    </section>
+    </motion.section>
   );
 };
 
