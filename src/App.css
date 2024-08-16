@@ -113,3 +113,44 @@
   animation: blink 1s step-start infinite;
 }
 
+/* Ripple Effect */
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+.ripple::after {
+  content: '';
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  border-radius: 50%;
+  animation: ripple 0.6s ease-out;
+}
+@keyframes ripple {
+  to {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Animated Border */
+.animate-border {
+  border-color: transparent;
+  transition: border-color 0.3s ease;
+}
+
+.group:hover .animate-border {
+  border-color: white;
+}
+
+/* Accessibility & Contrast Optimization */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.7);
+}

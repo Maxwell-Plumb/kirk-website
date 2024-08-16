@@ -51,7 +51,7 @@ const HeroSection = () => {
               NYC's premier plumbing & HVAC specialists since 1990
             </motion.p>
             <motion.button 
-              className="bg-blue-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-lg"
+              className="bg-blue-500 text-white px-8 py-4 rounded-lg text-base md:text-lg font-semibold hover:bg-blue-600 transition duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 focus:ring-offset-black transform hover:scale-110"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.5 }}
