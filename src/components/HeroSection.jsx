@@ -28,6 +28,7 @@ const HeroSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
+          aria-hidden="true"
         ></motion.div>
         
         <motion.div className="absolute inset-0 bg-black opacity-30"></motion.div>
