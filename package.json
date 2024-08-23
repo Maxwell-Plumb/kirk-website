@@ -56,5 +56,10 @@
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.9"
   },
-  "proxy": "https://kirk-website.s3.us-east-2.amazonaws.com"
+  "proxy": "https://kirk-website.s3.us-east-2.amazonaws.com",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
